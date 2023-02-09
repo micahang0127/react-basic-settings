@@ -1,4 +1,4 @@
-### React ESLint & Prettier
+### React Basic Settings
 
 #### \* [개발자 초기세팅]()
 
@@ -8,16 +8,33 @@
      - ESLint <br>
      - Prittier - Code formatter<br>
 
-2. Tool settings - VSCode <br> 1) VSCode preferences -> Settings 접속 (Ctrl + ,) <br></br> 2) format on save 검색 -> Editor: Format On Save 체크 <br>
-   : 파일저장 시 코드 eslint 적용 스타일로 변경<br><br> 3) default formatter 검색 -> Editor: Default Formmatter 수정 <br>
-   : Prettier - Code formatter로 수정<br><br>
-   <br>
+2. Tool settings
+   - VSCode <br>
+   1. VSCode preferences -> Settings 접속 (Ctrl + ,) <br></br>
+   2. format on save 검색 -> Editor: Format On Save 체크 <br>
+      : 파일저장 시 코드 eslint 적용 스타일로 변경<br><br>
+   3. default formatter 검색 -> Editor: Default Formmatter 수정 <br>
+      : Prettier - Code formatter로 수정<br><br>
+      <br>
 
 #### \* [확장프로그램 설치]() (참고)
 
 - Reactjs code snippets : <br>
   rsc 명령어 등으로 코드 자동완성
   <br>
+
+#### \* [USING]()
+
+- router
+
+  ```
+  $ npm i react-router-dom
+  ```
+
+- i18n (다국어처리)
+  ```
+  $ npm i --save i18next react-i18next
+  ```
 
 #### \* [구현기록]()
 
@@ -169,6 +186,12 @@
        ```
        $ npx prettier --write ./src/App.js
        ```
+
+- **i18n (다국어처리)**
+  1. 설치 <br>
+     ```
+     $ npm i --save i18next react-i18next
+     ```
 
 #### \* [개념]()
 
