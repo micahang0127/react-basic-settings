@@ -198,6 +198,8 @@
 ESLint : EcmaScript + Lint. 자바스크립트 문법을 잡아주는것<br>
 Prettier : 코드 스타일을 잡아주는 코드 포맷터<br>
 aitbnb : ESLint 로 가장 많이 쓰는 것으로 airbnb에서 정의한 자바스트립트 규칙<br>
+reportWebVitals : CRA로 프로젝트 생성시 나타남. CRA가 사용하는 웹 퍼포먼스 측정도구(Weg Vitals)<br>
+React.StrictMode : 애플리케이션 내의 잠재적 문제를 체크하는 도구. 운영환경에서는 반영되지 않고 개발환경에서만 사용됨<br>
 
 <br>
 [참고]  
